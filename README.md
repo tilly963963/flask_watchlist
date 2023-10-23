@@ -28,7 +28,13 @@ generate fake data then run:
 * Running on http://127.0.0.1:5000/
 ```
 
-
+## docker
+```
+docker run -p 5000:5000 -e HOST=0.0.0.0 watchlist
+```
+```
+docker build -t watchlist . --no-cache
+```
 ## License
 
 This project is licensed under the MIT License (see the
